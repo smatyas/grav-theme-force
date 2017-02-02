@@ -1,0 +1,13 @@
+{#{% set welcome_image = page.media.images|first.contrast(20) %}#}
+{% if welcome_image %}
+	<div class="modular-row welcome welcome-image flush-top" style="background-image: url({{ welcome_image.url }});">
+{% else %}
+    <div class="modular-row welcome welcome-image flush-top" style="background-image: url({{ url('theme://images/force.jpg') }});">
+{% endif %}
+    {{ content }}
+
+    {% for button in page.header.buttons %}
+        <a class="button{% if button.primary %} primary{% endif %}" href="{{ button.url }}">{{ button.text }}</a>
+    {% endfor %}
+
+</div>

@@ -1,0 +1,13 @@
+name: Force
+version: 0.1.0
+description: Force is a customized version of the Antimatter Grav theme.
+icon: hand-spock-o
+author:
+  name: Mátyás Somfai
+  email: somfai.matyas@gmail.com
+homepage: https://github.com/smatyas/grav-theme-force
+#demo: http://demo.yoursite.com
+keywords: grav, theme, force, antimatter
+bugs: https://github.com/smatyas/grav-theme-force/issues
+readme: https://github.com/smatyas/grav-theme-force/blob/develop/README.md
+license: MIT

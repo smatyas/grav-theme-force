@@ -1,0 +1,106 @@
+// Your custom SCSS should be written here...
+
+.grav-lightslider {
+    .lSSlideOuter {
+        .lSPager.lSpg {
+            > li a {
+                z-index: 1;
+            }
+        }
+    }
+}
+
+#body > script:first-child + .grav-lightslider {
+    margin-top: -3rem;
+}
+
+#footer {
+    height: 3rem;
+    font-size: 0.8rem;
+
+    .totop {
+        bottom: 2rem;
+
+        span {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+}
+
+.welcome #body {
+    padding-bottom: 0rem;
+    margin-bottom: -2rem;
+
+    .welcome-image {
+        height: 100vh;
+    }
+}
+
+.e-content {
+    p {
+        margin: 1rem 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        text-align: left;
+        letter-spacing: -1px;
+        font-weight: 400;
+        margin: .85rem 0 1.2rem 0;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    h6 {
+        font-size: 1.1rem;
+    }
+}
+
+.list-item {
+    .list-blog-header {
+        h4.p-name {
+            background-color: aliceblue;
+            padding: 0 10px;
+            border-radius: 3px;
+        }
+
+    }
+
+    .list-blog-date {
+        padding-right: 10px;
+
+        span {
+            font-size: 1.3rem;
+            font-weight: 600;
+            line-height: 120%;
+        }
+
+        em {
+            border-top: 1px solid #666;
+            font-style: normal;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            line-height: 120%;
+        }
+    }
+}
